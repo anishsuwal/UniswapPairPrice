@@ -182,7 +182,7 @@ async function getUniswapData() {
       console.log("Y VALUE", y, "MATIC")
       console.log("3rd step", thirdrdstep , "MATIC")
       // Return the calculated values as an object
-      return {
+      /*return {
           maticInUSD,
           usdGLY,
           usdMatic,
@@ -191,7 +191,8 @@ async function getUniswapData() {
           constanVal,
           y,
           thirdrdstep
-      };
+      };*/
+      return thirdrdstep;
   } catch (error) {
       throw error;
   }
