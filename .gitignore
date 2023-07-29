@@ -12,5 +12,4 @@ build/Release
 node_modules/
 jspm_packages/
 # dotenv environment variables file
-.env
-.env.test
+
