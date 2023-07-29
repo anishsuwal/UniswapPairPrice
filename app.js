@@ -51,7 +51,7 @@ app.listen(PORT, () => {
 async function getUniswapData() {
   try {
       const chainId = 80001;
-      const walletAddress = '0x1d5e1522b566F1D32fFF5c6139eF4F2Ed5ADeA1a';
+      const walletAddress = '0xE8b7684C7889DaAAdA0D9644d90a871f967366E6';
       const tokenInContractAddress = '0x92B37c3CBb6381c6F5c7016b3638D8426D971846';
       const tokenOutContractAddress = '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889';
       const { API_URL, PRIVATE_KEY } = process.env;
