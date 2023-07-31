@@ -166,7 +166,9 @@ async function getUniswapData() {
 
       const constanVal = maticGly / parseFloat(actualMaticPrice);
       const y = constanVal * parseFloat(actualMaticPrice);
-      const thirdrdstep = (y / 0.30) / y;
+      //const thirdrdstep = (y / 0.30) / y;
+      const token_price = (y / 0.30) / y;
+      
 
       console.log("USD", usdAmt, " ===", usdGLY, "GLY")
       console.log("USD", usdAmt, " ===", usdMatic, "MATIC")
@@ -192,7 +194,7 @@ async function getUniswapData() {
           y,
           thirdrdstep
       };*/
-      return thirdrdstep;
+      return {token_price};
   } catch (error) {
       throw error;
   }
