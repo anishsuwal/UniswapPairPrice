@@ -182,7 +182,7 @@ async function getUniswapData() {
   
       console.log("Const  VALUE", constanVal)
       console.log("Y VALUE", y, "MATIC")
-      console.log("3rd step", thirdrdstep , "MATIC")
+      console.log("3rd step", token_price , "MATIC")
       // Return the calculated values as an object
       /*return {
           maticInUSD,
